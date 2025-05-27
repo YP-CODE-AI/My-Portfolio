@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: backgrounf-color 0.5s ease;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    padding: 15 px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn.btn[data-color="blue"] {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn.btn[data-color="yellow"] {
+    background-color: #dcff13;
+    color: white;
+}
+
+.btn.btn[data-color="green"] {
+    background-color: #11cc00;
+    color: white;
+}
+
+.btn.btn[data-color="red"] {
+    background-color: #d30606;
+    color: white;
+}
